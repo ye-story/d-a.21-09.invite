@@ -18,7 +18,7 @@ if (+id && !isNaN(+id) && (+id <= 24) && (+id > 0)) {
   // img4.src = baseImgPath + '4.jpg';
 }
 else {
-  img2.src = `./img/2.jpg`;
+  img3.src = baseImgPath + './img/3.jpg';
 }
 
 const imgs = [...document.querySelectorAll('.img-wrapper img')];
